@@ -72,9 +72,24 @@ img {
   clear: both;
 }
 
+
 @media screen and (max-width: 767px) {
   #lezioni,#why {
     background-color: #F2F2CD;
+  }
+  .row {
+    margin-top: 0;
+  }
+  img {
+    height: 150px;
+  }
+  h1 {
+    padding-top: 1rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #lezioni,#why {
+    background-color: #cde8f2;
   }
   .row {
     margin-top: 0;
