@@ -82,4 +82,7 @@ img {
   img {
     height: 150px;
   }
+  h1 {
+    padding-top: 1rem;
+  }
 }
